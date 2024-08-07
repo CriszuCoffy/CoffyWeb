@@ -1,0 +1,86 @@
+
+// Variables de Color
+$primary-color: #4CAF50;
+$secondary-color: #010501;
+$text-color: #333;
+$background-color: #9f9f9fca;
+$link-color: #1e90ff;
+$standard-purple: #66689f;
+$link-hover-color: darken($link-color, 10%);
+
+// Tipografía
+$font-family-base: 'Arial', sans-serif;
+$heading-font-size: 1.8rem;
+$body-font-size: 1rem;
+
+// Estilos Globales
+body {
+  font-family: $font-family-base;
+  font-size: $body-font-size;
+  color: $text-color;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  // background-color: $standard-purple;
+  background-color: $primary-color;
+  padding: 35px;
+  height: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  margin-left: 20px;
+  font-size: 1.8em;
+}
+
+li:hover {
+  border-color: $secondary-color;
+  border-bottom: solid;
+}
+
+template {
+  background-color: $background-color;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+//   color: $primary-color;
+//   font-size: $heading-font-size;
+//   margin: 0 0 15px 0;
+// }
+
+// a {
+//   color: $link-color;
+//   text-decoration: none;
+//   transition: color 0.3s ease;
+
+//   &:hover {
+//     color: $link-hover-color;
+//   }
+// }
+
+// Botones
+// .button {
+//   background-color: $primary-color;
+//   color: #fff;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   transition: background-color 0.3s ease;
+
+//   &:hover {
+//     background-color: darken($primary-color, 10%);
+//   }
+// }
+
+// Contenedores
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   padding: 20px;
+// }
+
